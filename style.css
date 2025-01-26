@@ -1,0 +1,129 @@
+/* Общие стили */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+/* Обертка для основного контента */
+.content-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/* Основной контент */
+.main-content {
+    width: 100%;
+}
+
+/* Виды чая */
+.tea-types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.tea-card {
+    background: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
+
+.tea-card h3 {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.tea-card p {
+    margin: 0;
+}
+
+.tea-card .price {
+    font-weight: bold;
+    color: #7da27d;
+    margin-top: 10px;
+}
+
+/* Шапка */
+header {
+    background: #7da27d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/* Разделы */
+section {
+    margin: 30px 0;
+}
+
+section h2 {
+    color: #7da27d;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+
+/* Подвал */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .tea-types {
+        flex-direction: column;
+    }
+
+    .tea-card {
+        flex: 1 1 100%;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
