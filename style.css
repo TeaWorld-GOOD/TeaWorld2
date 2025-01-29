@@ -1,0 +1,144 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+header {
+    background: #7da27d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #e0f4e0;
+}
+section {
+    margin: 30px 0;
+}
+section h2 {
+    color: #7da27d;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.video-container iframe {
+    width: 100%;
+    max-width: 1100px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.tea-types {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+.tea-card {
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+    background: #f4f4f4;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1 1 calc(45% - 20px);
+    box-sizing: border-box;
+    transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+.tea-card:hover {
+    background-color: #e0f4e0;
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.tea-card h3 {
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.tea-card p {
+    margin: 0;
+}
+.tea-card .price {
+    font-weight: bold;
+    color: #7da27d;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+@media (max-width: 768px) {
+    .tea-types {
+        flex-direction: column;
+    }
+    .tea-card {
+        flex: 1 1 100%;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .video-container iframe {
+        height: 250px;
+        max-width: 100%;
+    }
+}
+.photo-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.tea-photo {
+    width: 100%;
+    max-width: 1100px; 
+    height: 450px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    object-fit: cover; 
+}
