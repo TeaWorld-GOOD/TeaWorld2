@@ -58,7 +58,7 @@ section p {
 }
 .flavor-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Автоматичні квадратні блоки */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
     gap: 20px;
 }
 .flavor-card {
@@ -69,15 +69,15 @@ section p {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s, box-shadow 0.3s;
-    height: 350px; /* Збільшена висота карточки */
+    height: 350px; 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 .flavor-card img {
-    width: 150px; /* Більша ширина */
-    height: 150px; /* Більша висота */
+    width: 150px; 
+    height: 150px; 
     object-fit: cover;
     border-radius: 50%;
     margin-bottom: 15px;
@@ -95,7 +95,7 @@ section p {
 .flavor-card h3 {
     color: #333;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem; /* Збільшено заголовок */
+    font-size: 1.5rem; 
     margin-bottom: 8px;
 }
 .flavor-card p {
