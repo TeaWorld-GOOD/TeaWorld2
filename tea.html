@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зелений чай</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@400;600&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="tea.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Зелений чай</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="#flavors">Смаки</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="flavors" class="container">
+    <h2>Популярні смаки зеленого чаю</h2>
+    <div class="flavor-grid">
+        <div class="flavor-card">
+            <img src="https://admin.newtea.ua/files/styles/product_card_webp/public/product/sihu_lunczin_kolodec_drakona.png.webp?itok=OSqYCBWQ" alt="Жасминовий чай">
+            <h3>Сиху Лунцзин</h3>
+    
+<div class="product-card">
+        <p class="price">Цена: <span id="price1">12</span> $</p>
+        <div class="controls">
+            <button onclick="changeGrams(1, -50)">–</button>
+            <span id="grams1">100</span> г
+            <button onclick="changeGrams(1, 50)">+</button>
+        </div>
+        <button class="buy-button" onclick="buy(1)">Купить</button>
+    </div>
+          
+        </div>
+        <div class="flavor-card">
+            <img src="https://ad-ua.com/image/cache/catalog/shidnijlimon-650x650.jpg" alt="Лимонний чай">
+            <h3>Бі Ло Чунь</h3>
+
+    <div class="product-card">
+        <p class="price">Цена: <span id="price2">14</span> $</p>
+        <div class="controls">
+            <button onclick="changeGrams(2, -50)">–</button>
+            <span id="grams2">100</span> г
+            <button onclick="changeGrams(2, 50)">+</button>
+        </div>
+        <button class="buy-button" onclick="buy(2)">Купить</button>
+    </div>
+          
+        </div>
+        <div class="flavor-card">
+            <img src="https://miychay.com/upload/iblock/1b2/1b225e3baf66e25c4c78fba4ac42d079.jpg" alt="Імбирний чай">
+            <h3>Лунцзин Люкс</h3>
+ <div class="product-card">
+
+        <p class="price">Цена: <span id="price3">32</span> $</p>
+        <div class="controls">
+            <button onclick="changeGrams(3, -50)">–</button>
+            <span id="grams3">100</span> г
+            <button onclick="changeGrams(3, 50)">+</button>
+        </div>
+        <button class="buy-button" onclick="buy(3)">Купить</button>
+    </div>
+          
+        </div>
+        <div class="flavor-card">
+            <img src="https://ad-ua.com/image/cache/catalog/zelenijzmjatoju-650x650.jpg" alt="М'ятний чай">
+            <h3>Ганпаудер</h3>
+<div class="product-card">
+        <p class="price">Цена: <span id="price4">15</span> $</p>
+        <div class="controls">
+            <button onclick="changeGrams(4, -50)">–</button>
+            <span id="grams4">100</span> г
+            <button onclick="changeGrams(4, 50)">+</button>
+        </div>
+        <button class="buy-button" onclick="buy(4)">Купить</button>
+    </div>
+        </div>
+        <div class="flavor-card">
+            <img src="https://admin.newtea.ua/files/styles/default_product_frame_webp/public/product/lu_shan_jun_u-00_0.png.webp?itok=r5srIRow" alt="нету в наличии">
+            <h3>Лу Шань Юнь У</h3>
+<div class="product-card">
+        <p class="price">Цена: <span id="price5">6</span> $</p>
+        <div class="controls">
+            <button onclick="changeGrams(5, -50)">–</button>
+            <span id="grams5">100</span> г
+            <button onclick="changeGrams(5, 50)">+</button>
+        </div>
+        <button class="buy-button" onclick="buy(5)">Купить</button>
+    </div>
+        </div>
+        <div class="flavor-card">
+            <img src="images/honey.jpg" alt="нету в наличии">
+            <h3>---------</h3>
+            <p>-----------</p>
+            <p class="price">----------</p>
+        </div>
+        <div class="flavor-card">
+            <img src="" alt="Нету в наличии">
+            <h3>--------</h3>
+            <p>-----------</p>
+            <p class="price">-----</p>
+        </div>
+        <div class="flavor-card">
+            <img src="" alt="Нету в наличии">
+            <h3>--------</h3>
+            <p>----------</p>
+            <p class="price">------</p>
+        </div>
+        <div class="flavor-card">
+            <img src="images/peach.jpg" alt="нету в наличии">
+            <h3>--------</h3>
+            <p>-----</p>
+            <p class="price">-----</p>
+        </div>
+        <div class="flavor-card">
+            <img src="images/strawberry.jpg" alt="нету в наличии">
+            <h3>---------</h3>
+            <p>--------</p>
+            <p class="price">------</p>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Світ чаю. Усі права захищено.</p>
+            <a href="index.html">Повернутися на головну</a>
+        </div>
+    </footer>
+</body>
+<script src="tea.js"></script>
+</html>
